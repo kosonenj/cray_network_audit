@@ -1,6 +1,6 @@
 import os
 
-config_folder = input 'Please specify the pat to the folder '  # Update with the path to your configuration files folder
+config_folder = input ('Please specify the path to the folder: ')  # Update with the path to your configuration files folder
 
 # Define the best practice configuration line items to check
 best_practices = {
