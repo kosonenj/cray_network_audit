@@ -46,7 +46,7 @@ best_practices = {
     "https-server vrf mgmt": "HTTPS access not allowed from VRF mgmt",
 }
 
-minimum_version = "GL.10.09.0030"  # Update with the minimum software version
+minimum_version = "GL.10.09.0010"  # Update with the minimum software version
 
 for config_file in os.listdir(config_folder):
     file_path = os.path.join(config_folder, config_file)
