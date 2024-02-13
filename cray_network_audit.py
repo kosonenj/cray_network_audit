@@ -70,10 +70,10 @@ for config_file in os.listdir(config_folder):
     for line in config_lines:
         if version_line in line:
             version = line.strip().split(maxsplit=1)[1][14:]
-            print (f"The Below switch is currently running software", line[1:] )
             if version < minimum_version:
-            #if ({version}) < ({minimum_version}):
                 config_errors.append(f"Software version ({version}) does not meet the minimum requirement of ({minimum_version})")
+            else :
+                print (f"This switch is currently running software version:", line[9:] )
             break
 
     # Print results for each configuration file
