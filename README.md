@@ -1,4 +1,4 @@
-# CSM_network_audit
+# Cray network audit
 
 Security hardening of AOS-CX switches in Cray Super Computers.
 
