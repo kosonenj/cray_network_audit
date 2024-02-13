@@ -21,7 +21,7 @@ best_practices = {
     #Security
     "aaa authentication limit-login-attempts": "No AAA authentication limit-login-attempts configured",
     "ssh certified-algorithms-only": "Strict certified-algorithms-only is not enabled",
-    "session-timeout": "No session time out configured",
+    "session-timeout": "no session time out configured",
     "radius-server host": "No Radius server conrigured",
     "aaa authentication login": "No AAA authentication login configured",
     "tacacs-server host": "No Tacacs-server configured",
