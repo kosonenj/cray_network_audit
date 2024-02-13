@@ -23,8 +23,6 @@ best_practices = {
     "ssh certified-algorithms-only": "Strict certified-algorithms-only is not enabled",
     "session-timeout": "no session time out configured",
     "radius-server host": "No Radius server conrigured",
-    #"aaa group server": "",
-    "aaa authentication allow-fail-through": "AAA authentication allow-fail-through configured",
     "aaa authentication login": "No AAA authentication login configured",
     "tacacs-server host": "No Tacacs-server configured",
     "snmp-server community": "SNMPv2 server community enabled, should be disabled in secure systems and use SNMPv3",
