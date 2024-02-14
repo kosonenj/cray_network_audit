@@ -45,7 +45,7 @@ best_practices = {
 }
 
 minimum_version = "10.09.0010"  # Update with the minimum software version
-#minimum_version = "GL.10.09.0010"  # Update with the minimum software version
+
 for config_file in os.listdir(config_folder):
     file_path = os.path.join(config_folder, config_file)
     if not config_file.endswith(".cfg"):
